@@ -1,8 +1,8 @@
 #include <iostream>
-#unclude <string>
+#include <string>
 using namespace std;
 int main() {
-    cout << "Maelle"endl;
-    cout << "Yaounde"endl;
+    cout << "Maelle"<<endl;
+    cout << "Yaounde"<<endl;
     return 0;
 }
