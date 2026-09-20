@@ -5,6 +5,7 @@ int main(){
     printf("Bonjour")
     return 0;
 }
+//message exact 1
 c1-exo3_main.cpp:3:22: error: expected ';' after expression
     3 |     printf("bonjour")
       |                      ^
@@ -19,6 +20,7 @@ int main(){
     Printf("Bonjour");
     return 0;
 }
+//message excat 2
 c1-exo3_main.cpp:3:5: error: use of undeclared identifier 'Printf'; did you mean
       'printf'?
     3 |     Printf("bonjour");
@@ -37,6 +39,7 @@ int main(){
     Printf("Bonjour");
     return 0;
 }
+//message exact 3
 c1-exo3_main.cpp:3:5: error: use of undeclared identifier 'printf'
     3 |     printf("bonjour");
       |     ^~~~~~
