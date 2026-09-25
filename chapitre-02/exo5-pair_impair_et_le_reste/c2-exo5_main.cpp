@@ -2,6 +2,7 @@
 
 int main(){
     int nombre;
+    int valeur;
 
     std::cout<< "entrez le nombre:";
     std::cin >> nombre;
@@ -23,4 +24,5 @@ int main(){
     } else {
         std::cout <<"ce nombre n'est pas divisible par 3" << std::endl;
     }
+    return 0;
 }
