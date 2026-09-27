@@ -18,12 +18,12 @@ int main (){
         } else if ( nombre < val) {
             std::cout << "moins\n";
         } else {
-            std::cout << "vous avez trouve le nombre";
+            std::cout << "vous avez trouve le nombre\n";
             
         }
         fois = fois + 1;
 
-     } while(nombre == val);
+     } while(nombre != val);
     std::cout << "le nombre d'essais est de\n" << fois;
 
     return 0;
