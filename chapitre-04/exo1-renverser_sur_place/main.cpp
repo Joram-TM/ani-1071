@@ -11,14 +11,21 @@ void renverser(int t[], int n){
 int main (){
     int n = 0;
     int t[n];
+    int test = 0;
 
-    scanf("%d\n", &n);
-    for (int i=0; i < n; i++){
+    while(scanf("%d\n", &n) == 1){
+        test =1;
+        for (int i=0; i < n; i++){
          scanf ("%d", &t[i]);
     }
     renverser(t, n);
     for (int i=0; i < n; i++){
         printf ("%d\n", t[i]);
+    }
+    if (test == 0){
+        printf("AUCUN");
+    }
+
     }
 
     return 0;
