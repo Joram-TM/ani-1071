@@ -9,7 +9,7 @@ void renverser(int t[], int n){
 }
 
 int main (){
-    int n;
+    int n = 0;
     int t[n];
 
     scanf("%d\n", &n);
