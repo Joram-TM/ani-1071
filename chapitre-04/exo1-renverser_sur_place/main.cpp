@@ -1,0 +1,25 @@
+#include <cstdio>
+
+void renverser(int t[], int n){
+    for (int i=0; i < n/2; i++){
+        int r = t[i];
+        t[i] = t[n-1-i];
+        t[n-1-i] = r;
+    }
+}
+
+int main (){
+    int n;
+    int t[n];
+
+    scanf("%d\n", &n);
+    for (int i=0; i < n; i++){
+         scanf ("%d", &t[i]);
+    }
+    renverser(t, n);
+    for (int i=0; i < n; i++){
+        printf ("%d\n", t[i]);
+    }
+
+    return 0;
+}
